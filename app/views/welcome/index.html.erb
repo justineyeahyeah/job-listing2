@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>中法文化之春</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </head>
+
 
   <body>
 
@@ -200,60 +193,67 @@
         </div>
       </div>
     </div>
+    <!-- Modal end-->
 
 
-
-    <div class="container">
-      <h3 class="text-center">Contact</h3>
-      <p class="text-center"><em>We love our fans!</em></p>
-      <div class="row test">
-        <div class="col-md-4">
-          <p>Fan? Drop a note.</p>
-          <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
-          <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
-          <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-4">
+          <p class="text-center">
+            <strong>推广大使</strong>
+          </p><br>
+          <a href="#demo" data-toggle="collapse">
+            <img src="http://ww4.sinaimg.cn/large/006tNc79gy1ff72iacf1dj3074074jrh.jpg" class="img-circle city" alt="Beijing">
+          </a>
         </div>
-        <div class="col-md-8">
-          <div class="row">
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-            </div>
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-            </div>
-          </div>
-          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-          <div class="row">
-            <div class="col-md-12 form-group">
-              <button class="btn pull-right" type="submit">Send</button>
-            </div>
-          </div>
+        <div class="col-sm-4">
+          <p class="text-center">
+            <strong>心水推荐</strong>
+          </p><br>
+          <a href="#demo" data-toggle="collapse">
+            <img src="http://ww2.sinaimg.cn/large/006tNc79gy1ff737mzar8j3074074mx0.jpg" class="img-circle city" alt="Shanghai">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-center">
+            <strong>所有活动</strong>
+          </p><br>
+          <a href="#demo" data-toggle="collapse">
+            <img src="http://ww3.sinaimg.cn/large/006tNc79gy1ff7316qromj3074074mx8.jpg" class="img-circle city" alt="Wuhan">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-center">
+            <strong>合作伙伴</strong>
+          </p><br>
+          <a href="#demo" data-toggle="collapse">
+            <img src="http://ww4.sinaimg.cn/large/006tNc79gy1ff7345wqftj3074074aa5.jpg" class="img-circle city" alt="Beijing">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-center">
+            <strong>上海</strong>
+          </p><br>
+          <a href="#demo" data-toggle="collapse">
+            <img src="http://ww4.sinaimg.cn/large/006tNc79gy1ff4tz3wceuj308n064jri.jpg" class="img-circle city" alt="Shanghai">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-center">
+            <strong>武汉</strong>
+          </p><br>
+          <a href="#demo" data-toggle="collapse">
+            <img src="http://ww2.sinaimg.cn/large/006tNc79gy1ff4tz3xb9oj309706t74i.jpg" class="img-circle city" alt="Wuhan">
+          </a>
         </div>
       </div>
     </div>
 
 
-    <h3 class="text-center">From The Blog</h3>
-<ul class="nav nav-tabs">
-  <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
-  <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
-  <li><a data-toggle="tab" href="#menu2">Peter</a></li>
-</ul>
 
-<div class="tab-content">
-  <div id="home" class="tab-pane fade in active">
-    <h2>Mike Ross, Manager</h2>
-    <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
-  </div>
-  <div id="menu1" class="tab-pane fade">
-    <h2>Chandler Bing, Guitarist</h2>
-    <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
-  </div>
-  <div id="menu2" class="tab-pane fade">
-    <h2>Peter Griffin, Bass player</h2>
-    <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
-  </div>
-</div>
+
+
+
 
 
 
@@ -261,7 +261,7 @@
 <div id="googleMap"></div>
 <script>
 function myMap() {
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+var myCenter = new google.maps.LatLng(39.916667,116.416667);
 var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 var marker = new google.maps.Marker({position:myCenter});
